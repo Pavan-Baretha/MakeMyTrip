@@ -43,4 +43,10 @@ public class TravelServiceImplementation implements TravelsService {
 		return routesImp.findAll();
 	}
 
+	@Override
+	public Booking updateBooking(Booking booking) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

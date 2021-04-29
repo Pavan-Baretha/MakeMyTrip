@@ -9,6 +9,7 @@ import com.Travel.MakeMyTrip.Model.Routes;
 public interface TravelController {
 
 	Booking makeBooking(Booking booking);
+	Booking updateBooking(Booking booking);
 	List<Booking> viewAllBooking();
 	Routes addRoute(Routes route);
 	List<Routes> viewAllRoutes();

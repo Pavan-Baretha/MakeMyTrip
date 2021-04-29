@@ -1,3 +1,4 @@
+//here is the controller class where we make Rest API
 package com.Travel.MakeMyTrip.Controller.Implementation;
 
 import java.util.List;
@@ -42,6 +43,12 @@ public class TravelControllerImplementation implements TravelController{
 	public List<Routes> viewAllRoutes() {
 		// TODO Auto-generated method stub
 		return travelService.viewAllRoutes();
+	}
+
+	@Override
+	public Booking updateBooking(Booking booking) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

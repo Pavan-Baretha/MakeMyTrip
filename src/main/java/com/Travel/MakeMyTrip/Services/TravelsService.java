@@ -11,4 +11,5 @@ public interface TravelsService {
 	List<Booking> viewAllBooking();
 	Routes addRoute(Routes route);
 	List<Routes> viewAllRoutes();
+	Booking updateBooking(Booking booking);
 }
